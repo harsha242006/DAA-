@@ -1,6 +1,5 @@
 import java.util.Arrays;
 import java.util.Scanner;
-
 public class AnagramChecker {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -13,7 +12,6 @@ public class AnagramChecker {
             System.out.println("Not Anagrams");
             return;
         }
-
         char[] a1 = str1.toCharArray();
         char[] a2 = str2.toCharArray();
         Arrays.sort(a1);
